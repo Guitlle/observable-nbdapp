@@ -1,0 +1,87 @@
+#loading {
+    max-width: 1114px;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #999;
+    padding: 4em;
+}
+
+#output {
+    max-width: 1114px;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #555;
+}
+#output.hide-names .cell-container .cell-name {
+    display: none !important;
+}
+
+
+.cell-container {
+    clear: both;
+}
+
+.cell-name {
+    float: left;
+    width: 100px;
+    padding: 10px 20px;
+    text-align: right;
+    font-family: monospace;
+    font-size: 14px;
+    color: #81C5EF;
+    cursor: pointer;
+    height: 3em;
+    background: #eee;
+    margin-top: 1em;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.cell-result {
+    border-bottom: 2px solid #eee;
+    min-height: 2em;
+    border-left: 4px solid #eee;
+    margin-left: 140px;
+    padding: 30px;
+}
+
+.cell-container .cell-source {
+    margin-left: 190px;
+    width: 60%;
+    background: #f7f7f7;
+    padding: 30px;
+    display: none;
+    border: 4px 0px 0px 0px solid #eee;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 3em;
+}
+
+.cell-container.cell-show-code .cell-source {
+    display: block;
+}
+
+.cell-source h5 {
+    margin: 0px;
+}
+
+.cell-source .cell-inputs, .cell-source .cell-name-edit {
+    border: 1px solid #999;
+    padding: 5px;
+    font-family: monospace;
+    margin-bottom: 0.2em;
+    border-radius: 5px;
+    width: 100%;
+    color: #999;
+}
+
+.cell-code {
+    width: 100%;
+    height: 10em;
+    display: block;
+    font-family: monospace;
+    color: #999;
+    border: 1px solid #AAA;
+    border-radius: 10px;
+}
